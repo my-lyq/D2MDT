@@ -1,0 +1,21 @@
+mimic_config = {
+    "retriever_name": "MedCPT",
+    "corpus_name": "MSD",
+   "llm_name": "Qwen3-8B",
+    "epochs": 50,
+    "patience": 10,
+    "ehr_dataset_name": 'mimic-iii',
+    "ehr_dataset_dir": './ehr_datasets/mimic-iii/processed/fold_1',
+    "ehr_task": "outcome",
+    "ehr_model_names": ['AdaCare', 'MCGRU', 'RETAIN'],
+    "seeds": [0, 0, 0],
+    "doctor_num": 3,
+    "max_round": 3,
+    "ehr_embed_dim": 128,
+    "text_embed_dim": 1024,
+    "merge_embed_dim": 128,
+    "learning_rate": 1e-3,
+    "main_metric": "auprc",
+    "batch_size": 32,
+    "mode": "test"
+}
