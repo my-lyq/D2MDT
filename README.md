@@ -27,8 +27,6 @@ python train_test.py
 python importance.py
 ```
 
-> More details about the pre-processing and training steps can be found in the [`pyehr`](https://github.com/yhzhu99/pyehr) repository.
-
 ### Running LLM-based Multi-Agent Collaboration
 
 Run the collaboration pipeline:
