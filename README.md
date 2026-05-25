@@ -1,4 +1,4 @@
-# DeptMDT: Department-aware Multi-Agent Consultation framework for Efficient Clinical Prediction
+# D2MDT: Department-aware MultiDisciplinary Team Consultation with Deliberation for Efficient Clinical Prediction
 
 ## Environmental Setups
 
