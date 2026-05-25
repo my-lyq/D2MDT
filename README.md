@@ -2,11 +2,11 @@
 
 ## Environmental Setups
 
-- Create an environment `deptmdt` and activate it.
+- Create an environment `d2mdt` and activate it.
 
 ```bash
-conda create -n deptmdt python=3.9
-conda activate deptmdt
+conda create -n d2mdt python=3.9
+conda activate d2mdt
 ```
 
 - Install the required packages.
