@@ -81,13 +81,13 @@ python train_fusion.py
 
 ### Datasets
 
-DeptMDT has been evaluated on the following datasets:
+D2MDT has been evaluated on the following datasets:
 
 - MIMIC-III
 - MIMIC-IV
 
 ### Tasks
 
-DeptMDT has been evaluated on the following tasks:
+D2MDT has been evaluated on the following tasks:
 
 - In-hospital Mortality Prediction
