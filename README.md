@@ -1,5 +1,7 @@
 # D2MDT: Department-aware MultiDisciplinary Team Consultation with Deliberation for Efficient Clinical Prediction
+This is the implementation of the paper "D2MDT: Department-aware MultiDisciplinary Team Consultation with Deliberation for Efficient Clinical Prediction".
 
+You can implement our model according to the following steps:
 ## Environmental Setups
 
 - Create an environment `d2mdt` and activate it.
@@ -29,10 +31,10 @@ python importance.py
 
 ### Running LLM-based Multi-Agent Collaboration
 
-Run the collaboration pipeline:
+Run the collaboration mas:
 
 ```bash
-python collaboration_pipeline.py
+python collaboration_mas.py
 ```
 
 - Write configurations in `utils/hparams.py`.
@@ -91,3 +93,4 @@ D2MDT has been evaluated on the following datasets:
 D2MDT has been evaluated on the following tasks:
 
 - In-hospital Mortality Prediction
+- 30-day Readmission Prediction
